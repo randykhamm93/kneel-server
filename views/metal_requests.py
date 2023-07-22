@@ -28,16 +28,11 @@ METALS = [
 
 
 def get_all_metals():
-    """ Gets all metals
-
-    Returns:
-        METALS list
-    """
+    """ Gets all metals """
     return METALS
 
 def get_single_metal(id):
-    """ Gets single metal
-    """
+    """ Gets single metal """
     # Variable to hold the found metal, if it exists
     requested_metal = None
 
