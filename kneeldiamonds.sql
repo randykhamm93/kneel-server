@@ -57,3 +57,5 @@ INSERT INTO Styles VALUES (null, 'Round', 1000.00);
 INSERT INTO Styles VALUES (null, 'Princess', 900.00);
 INSERT INTO Styles VALUES (null, 'Oval', 950.00);
 INSERT INTO Styles VALUES (null, 'Emerald', 1100.00);
+
+ALTER TABLE Orders ADD COLUMN timestamp INTEGER;
